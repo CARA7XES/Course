@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Zakarya - CV</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+        }
+        .container {
+            display: flex;
+            max-width: 1200px;
+            margin: 50px auto;
+            background-color: white;
+            box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+        }
+        .sidebar {
+            width: 30%;
+            background-color: #f0f0f0;
+            padding: 30px 20px;
+            text-align: center;
+        }
+        .sidebar img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+        .sidebar h2 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        .sidebar h4 {
+            font-size: 16px;
+            color: gray;
+            margin-bottom: 20px;
+        }
+        .button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            margin: 20px 0;
+            display: inline-block;
+            border-radius: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .sidebar p {
+            font-size: 14px;
+            margin: 10px 0;
+        }
+        .section-title {
+            background-color: #333;
+            color: white;
+            padding: 8px;
+            border-radius: 20px;
+            margin: 20px 0 10px;
+            display: inline-block;
+            font-weight: bold;
+        }
+        .skills ul, .education ul {
+            list-style: none;
+            padding: 0;
+            margin-top: 10px;
+            text-align: left;
+        }
+        .skills li, .education li {
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+        .main {
+            width: 70%;
+            padding: 40px 30px;
+        }
+        .main h1 {
+            font-size: 48px;
+            margin-bottom: 0;
+        }
+        .main h3 {
+            font-weight: normal;
+            color: gray;
+            margin-top: 5px;
+            margin-bottom: 30px;
+        }
+        .experience {
+            margin-bottom: 40px;
+        }
+        .experience h2 {
+            font-size: 24px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .job {
+            margin-bottom: 20px;
+        }
+        .job h4 {
+            margin: 5px 0;
+            font-size: 18px;
+        }
+        .job p {
+            font-size: 14px;
+            color: #666;
+        }
+        .references {
+            margin-top: 40px;
+        }
+        .references h2 {
+            font-size: 24px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .ref {
+            display: flex;
+            justify-content: space-between;
+        }
+        .ref div {
+            width: 45%;
+        }
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+            }
+            .sidebar, .main {
+                width: 100%;
+            }
+            .ref {
+                flex-direction: column;
+            }
+            .ref div {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="sidebar">
+        <img src="https://via.placeholder.com/150" alt="Profile Photo">
+        <h2>Muhammad Zakarya</h2>
+        <h4>Computer Science Student</h4>
+        
+        <a href="#" class="button">Contact Me</a>
+
+        <p align="left">📞 +92-312-3456789</p>
+        <p align="left">📧 zakarya.cs@gmail.com</p>
+        <p align="left">🌐 www.zakarya.dev</p>
+        <p align="left">📍 G-10, Islamabad, Pakistan</p>
+
+        <div class="education">
+            <div class="section-title">EDUCATION</div>
+            <ul>
+                <li>BS Computer Science<br>National University of Sciences and Technology (NUST)<br>2022 - 2026</li>
+                <li>FSc Pre-Engineering<br>Punjab College, Islamabad<br>2020 - 2022</li>
+                <li>Matriculation (Science)<br>Beaconhouse School System<br>2018 - 2020</li>
+            </ul>
+        </div>
+
+        <div class="skills">
+            <div class="section-title">SKILLS</div>
+            <ul>
+                <li>Python Programming</li>
+                <li>Web Development (HTML, CSS, JS)</li>
+                <li>Database Management (SQL)</li>
+                <li>Problem Solving</li>
+                <li>Version Control (Git/GitHub)</li>
+                <li>Team Collaboration</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="main">
+        <h1>Muhammad<br>Zakarya</h1>
+        <h3>Computer Science Student</h3>
+
+        <div class="experience">
+            <h2>Work Experience</h2>
+
+            <div class="job">
+                <h4>Web Development Intern <span style="float:right;">Summer 2024</span></h4>
+                <strong>Techverx | Islamabad</strong>
+                <p>Assisted in front-end development projects, created responsive designs using HTML5, CSS3, and JavaScript. Collaborated with senior developers to optimize website performance.</p>
+            </div>
+
+            <div class="job">
+                <h4>Volunteer Developer <span style="float:right;">2023 - Present</span></h4>
+                <strong>Open Source Pakistan Community</strong>
+                <p>Contributed to open-source projects, bug fixing, feature development, and documentation. Participated in hackathons and coding competitions.</p>
+            </div>
+
+            <div class="job">
+                <h4>Freelance Projects <span style="float:right;">2022 - Present</span></h4>
+                <strong>Self-Employed</strong>
+                <p>Developed and deployed small websites for local businesses. Gained experience in client communication, requirements gathering, and project delivery.</p>
+            </div>
+
+        </div>
+
+        <div class="references">
+            <h2>References</h2>
+
+            <div class="ref">
+                <div>
+                    <strong>Dr. Ayesha Khan</strong><br>
+                    Professor at NUST<br>
+                    <strong>Phone:</strong> +92-300-1234567<br>
+                    <strong>Email:</strong> ayesha.khan@nust.edu.pk
+                </div>
+                <div>
+                    <strong>Mr. Imran Qureshi</strong><br>
+                    Senior Developer at Techverx<br>
+                    <strong>Phone:</strong> +92-345-9876543<br>
+                    <strong>Email:</strong> imran.q@techverx.com
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>
