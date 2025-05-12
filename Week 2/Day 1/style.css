@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+.container {
+    position: relative;
+    height: 100vh;
+    background-image: url('the_netflix_login_background__canada__2024___by_logofeveryt_dh0w8qv-pre.jpg'); /* Your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container::after {
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+nav {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.language {
+    padding: 5px 10px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 4px;
+}
+
+.sign-in {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor:pointer;
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding: 0 20px;
+}
+
+.content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.email-form {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.email-form input {
+    flex: 1;
+    padding: 15px;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+}
+
+.email-form button {
+    padding: 15px;
+    background-color: red;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
